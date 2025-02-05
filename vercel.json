@@ -1,5 +1,6 @@
 {
     "version": 2,
+    "public": "dist",
     "builds": [
       {
         "src": "package.json",
@@ -11,6 +12,7 @@
       { "src": "/(.*)", "dest": "/index.html" }
     ]
   }
+  
   
   
   
